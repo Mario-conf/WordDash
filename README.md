@@ -2,6 +2,7 @@
 ---
 
 ![WordDash](/src/wow.png)
+
 ¡Bienvenido a WordDash! Un juego simple donde debes escribir palabras relacionadas con las sugerencias antes de que se agote el tiempo.
 
 ## Cómo Jugar
