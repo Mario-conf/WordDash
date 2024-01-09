@@ -1,0 +1,160 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #838383;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #bbbbbb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#word-display-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#word-display {
+  font-size: 24px;
+  color: #333;
+}
+
+#input-container {
+  margin-top: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#word-input {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  background-color: #d6d6d6; 
+}
+
+
+#submit-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color:#686868;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#submit-button:hover {
+  background-color: #4b4b4b;
+}
+
+#timer-container {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #1b1b1b; 
+  margin-bottom: 20px; 
+}
+
+#github-message {
+  margin-top: 0px;
+  font-size: 14px;
+  color: #333;
+}
+
+#github-message a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#github-message a:hover {
+  color: #ffffff;
+}
+
+/* modo oscuro */
+
+.dark-mode {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.dark-mode #game-container {
+  background-color: #333; 
+  color: #fff; 
+}
+
+.dark-mode #word-display {
+  color: #fff; 
+}
+
+.dark-mode #word-input {
+  background-color: #555; 
+  color: #fff; 
+}
+.dark-mode #submit-button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode #submit-button:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}
+
+.dark-mode #timer-container {
+  color: #fff; 
+}
+
+.dark-mode #timer {
+  color: #fff; 
+}
+
+#dark-mode-toggle {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #1a1a1a;
+  transform: scale(1.05);
+}
+
+.dark-mode #dark-mode-toggle {
+  background-color: #747373;
+  color: #ffffff;
+}
+
+.dark-mode #dark-mode-toggle:hover {
+  background-color: #919090;
+}
+
+.dark-mode h1 {
+  color: #fff; 
+}
+
+.dark-mode #github-message {
+  color: #8b8b8b; 
+}
